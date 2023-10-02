@@ -3,6 +3,7 @@ public abstract class Actor implements ActorBehavior {
     protected boolean isMakeOrder;
     protected boolean isTakeOrder;
 
+
     public String getName() {
         return name;
     }

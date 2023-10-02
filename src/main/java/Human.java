@@ -1,4 +1,9 @@
 public class Human extends Actor {
+    public Human(String name) {
+        this.name = name;
+
+    }
+
     @Override
     public void setMakeOrder() {
         isMakeOrder = true;
@@ -13,6 +18,6 @@ public class Human extends Actor {
 
     @Override
     public String toString() {
-        return String.format("Заказ принят " + isMakeOrder + "\nЗаказ выдан " + isTakeOrder);
+        return String.format(name);
     }
 }
