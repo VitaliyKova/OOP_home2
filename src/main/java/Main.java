@@ -6,10 +6,11 @@ public class Main {
         Market market = new Market();
 
         market.acceptToMarket(name);
+        market.acceptToMarket(name2);
+
         market.takeInQueue(name);
         market.takeOrders("Пицца");
 
-        market.acceptToMarket(name2);
         market.takeInQueue(name2);
         market.takeOrders("Бургер");
 

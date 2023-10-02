@@ -19,6 +19,7 @@ public class Market implements QueueBehaviour, MarketBehaviour{
     @Override
     public void takeOrders(String order) {
         orders.add(order);
+
     }
 
     @Override
